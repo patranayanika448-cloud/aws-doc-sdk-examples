@@ -19,7 +19,8 @@
             "AutoScaling\\": "example_code/auto-scaling",
             "DynamoDb\\": "example_code/dynamodb/",
             "DynamoDb\\Basics\\": "example_code/dynamodb/dynamodb_basics",
-            "DynamoDb\\PartiQL_Basics\\": "example_code/dynamodb/partiql_basics",
+            "DynamoDb\\PartiQL_Basics\\": "example_code/dynamodb/partiql_basics",/
+            
             "Glue\\": "example_code/glue/",
             "Iam\\": "example_code/iam/",
             "Lambda\\": "example_code/lambda/",
