@@ -24,10 +24,11 @@
             "Iam\\": "example_code/iam/",
             "Lambda\\": "example_code/lambda/",
             "S3\\": "example_code/s3/"
-        },
+        }
         "files": [
             "example_code/aws_utilities/TestableReadline.php",
             "example_code/aws_utilities/LoadMovieData.php"
         ]
     }
 }
+"requisition" required on this: divided and rule sent
