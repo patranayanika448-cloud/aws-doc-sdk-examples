@@ -31,3 +31,75 @@
         ]
     }
 }
+{
+  "hook": {
+    "id": "e8affe31-8ae0-4b37-8c50-d86303094dc4",
+    "event": "LinkedAccount.linked",
+    "target": "https://webhook.site/105606a8-cfa3-4415-bae0-954e25137f00"
+  },
+  "linked_account": {
+    "id": "4ac10f37-c656-4e9a-89a1-1b04f9e9a343",
+    "integration": "Ashby",
+    "integration_slug": "ashby",
+    "category": "ats",
+    "end_user_origin_id": "12345678910",
+    "end_user_organization_name": "Example Organization",
+    "end_user_email_address": "jack.cavalier@merge.dev",
+    "status": "COMPLETE",
+    "webhook_listener_url": "https://api.merge.dev/api/integrations/webhook-listener/abcd1234defg5678",
+    "is_duplicate": false,
+    "account_type": "PRODUCTION"
+  },
+  "data": {
+    "account_token": "{ACCOUNT-TOKEN}",
+    "is_relink": false
+  }
+}
+{
+  "hook": {
+    "id": "e8affe31-8ae0-4b37-8c50-d86303094dc4",
+    "event": "LinkedAccount.sync_completed",
+    "target": "https://webhook.site/105606a8-cfa3-4415-bae0-954e25137f00"
+  },
+  "linked_account": {
+    "id": "4ac10f37-c656-4e9a-89a1-1b04f9e9a343",
+    "integration": "Ashby",
+    "integration_slug": "ashby",
+    "category": "ats",
+    "end_user_origin_id": "12345678910",
+    "end_user_organization_name": "Example Organization",
+    "end_user_email_address": "jack.cavalier@merge.dev",
+    "status": "COMPLETE",
+    "webhook_listener_url": "https://api.merge.dev/api/integrations/webhook-listener/abcd1234defg5678",
+    "is_duplicate": false,
+    "account_type": "PRODUCTION"
+  },
+  "data": {
+    "is_initial_sync": true,
+    "integration_name": "Ashby",
+    "integration_id": "ashby",
+    "sync_status": {
+      "ats.Candidate": {
+        "last_sync_finished": "2023-12-29T18:57:12Z",
+        "last_sync_result": "PARTIALLY_SYNCED"
+      },
+      "ats.Application":
+        "last_sync_finished": "2023-12-29T18:59:25Z",
+        "last_sync_result": "DONE"
+      },
+      "ats.Job": {
+        "last_sync_finished": "2023-12-29T17:05:45Z",
+        "last_sync_result": "FAILED"
+      }
+    }
+  }
+}
+ "data": {
+    "is_initial_sync": true,
+     "integration_name":"Ashby",
+     "integration_ID": "Ashby",
+     "Sync_status": {
+         "ats.Candidate": {
+               "last_sync_finished": "2023-12-29T18:57:12Z",
+        "last_sync_result": "PARTIALLY_SYNCED"
+             
