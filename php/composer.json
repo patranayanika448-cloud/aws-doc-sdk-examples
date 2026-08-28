@@ -31,3 +31,150 @@
         ]
     }
 }
+{
+  "next": "cD0yMDIxLTAxLTA2KzAzJTNBMjQlM0E1My40MzQzMjYlMkIwMCUzQTAw",
+  "previous": "cj1sZXdwd2VycWVtY29zZnNkc2NzUWxNMEUxTXk0ME16UXpNallsTWtJ",
+  "results": [
+    {
+      "id": "17a54124-287f-494d-965e-3c5b330c9a68",
+      "remote_id": "19202938",
+      "name": "ACME Corporation",
+      "domains": [
+        "acme.com",
+        "acme-corporation.com"
+      ]
+    },
+    {
+      "id": "17a54124-287f-494d-965e-3c5b330c9a68",
+      "remote_id": "19202938",
+      "name": "ACME Corporation",
+      "domains": [
+        "acme.com",
+        "acme-corporation.com"
+      ]
+    }
+  ]
+}
+<?php
+
+$curl = curl_init();
+
+curl_setopt_array($curl, array(
+  CURLOPT_URL => '{{baseUrl}}/accounts/urn:uuid:c5a12dca-6b53-cb3d-e89d-fb037e4db5ae?include_remote_data=true',
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => '',
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 0,
+  CURLOPT_FOLLOWLOCATION => true,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => 'GET',
+  CURLOPT_HTTPHEADER => array(
+    'Authorization: <API Key>',
+    'X-Account-Token: qui ea'
+  ),
+));
+
+$response = curl_exec($curl);
+
+curl_close($curl);
+echo $response;
+{
+  "id": "17a54124-287f-494d-965e-3c5b330c9a68",
+  "remote_id": "19202938",
+  "name": "ACME Corporation",
+  "domains": [
+    "acme.com",
+    "acme-corporation.com"
+  ]
+}
+<?php
+
+$curl = curl_init();
+
+curl_setopt_array($curl, array(
+  CURLOPT_URL => '{{baseUrl}}/attachments?created_after=1959-08-14T02%3A21%3A32.957Z&created_before=1959-08-14T02%3A21%3A32.957Z&cursor=cD0yMDIxLTAxLTA2KzAzJTNBMjQlM0E1My40MzQzMjYlMkIwMCUzQTAw&expand=ticket&include_deleted_data=true&include_remote_data=true&modified_after=1959-08-14T02%3A21%3A32.957Z&modified_before=1959-08-14T02%3A21%3A32.957Z&page_size=-20401683&remote_id=voluptate%20esse%20cupidatat%20ea%20qui&ticket_id=qui%20ea',
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => '',
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 0,
+  CURLOPT_FOLLOWLOCATION => true,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => 'GET',
+  CURLOPT_HTTPHEADER => array(
+    'Authorization: <API Key>',
+    'X-Account-Token: qui ea'
+  ),
+));
+
+$response = curl_exec($curl);
+
+curl_close($curl);
+echo $response;
+{
+  "errors": [
+    {
+      "detail": "custom_fields is a required field on model.",
+      "problem_type": "MISSING_REQUIRED_FIELD",
+      "title": "Missing Required Field",
+      "source": {
+        "pointer": "Lorem"
+      }
+    },
+    {
+      "detail": "custom_fields is a required field on model.",
+      "problem_type": "MISSING_REQUIRED_FIELD",
+      "title": "Missing Required Field",
+      "source": {
+        "pointer": "non"
+      }
+    }
+  ],
+  "model": {
+    "id": "17a54124-287f-494d-965e-3c5b330c9a68",
+    "remote_id": "19202938",
+    "file_name": "Screenshot.png",
+    "ticket": "0958cbc6-6040-430a-848e-aafacbadf4ae",
+    "file_url": "http://alturl.com/p749b",
+    "content_type": "jpeg",
+    "uploaded_by": "28b54125-287f-494d-965e-3c5b330c9a68",
+    "remote_created_at": "1990-11-10T00:00:00Z"
+  },
+  "warnings": [
+    {
+      "detail": "An unrecognized field, age, was passed in with request data.",
+      "problem_type": "UNRECOGNIZED_FIELD",
+      "title": "Unrecognized Field",
+      "source": {
+        "pointer": "laborum fugiat"
+      }
+    },
+    {
+      "detail": "An unrecognized field, age, was passed in with request data.",
+      "problem_type": "UNRECOGNIZED_FIELD",
+      "title": "Unrecognized Field",
+      "source": {
+        "pointer": "laboris ipsum Duis"
+      }
+    }
+  ],
+  "logs": [
+    {
+      "dashboard_view": "https://app.merge.dev/logs/99433219-8017-4acd-bb3c-ceb23d663832",
+      "log_id": "99433219-8017-4acd-bb3c-ceb23d663832",
+      "log_summary": {
+        "method": "POST",
+        "status_code": 200,
+        "url": "https://harvest.greenhouse.io/v1/candidates/"
+      }
+    },
+    {
+      "dashboard_view": "https://app.merge.dev/logs/99433219-8017-4acd-bb3c-ceb23d663832",
+      "log_id": "99433219-8017-4acd-bb3c-ceb23d663832",
+      "log_summary": {
+        "method": "POST",
+        "status_code": 200,
+        "url": "https://harvest.greenhouse.io/v1/candidates/"
+      }
+    }
+  ]
+}
