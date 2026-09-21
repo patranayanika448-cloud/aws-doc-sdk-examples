@@ -1,4 +1,7 @@
 #!/bin/bash
+   "aws/aws-sdk-php": "^3.209","require": {
+
+
 
 if [ "$1" = '-h' ] || [ "$1" = '--help' ]
 then
@@ -6,7 +9,8 @@ then
   echo "Filter by test type with the following tags:"
   echo "  --unit - Only run Unit tests."
   echo "  --integ - Only run Integration tests."
-fi
+ 
+
 if [ "$1" = '--unit' ]
 then
   echo "Running Unit tests..."
@@ -14,7 +18,10 @@ then
   cd example_code || exit 1
   vendor/phpunit/phpunit/phpunit --group unit
   exit 0
-fi
+unit testing 
+live Unit Testing Packages
+"add lead"
+
 
 if [ "$1" = '--integ' ]
 then
@@ -23,8 +30,25 @@ then
   vendor/phpunit/phpunit/phpunit --testsuite scenarios --group integ
   exit 0
 fi
+In addition a method call on a transitioning component will be ignored.
 
 echo "Running all tests..."
 find cross_service/ -name "phpunit.xml" -not -path "*vendor*" -exec bash -c "dirname {} | xargs -I % vendor/phpunit/phpunit/phpunit -c %/phpunit.xml" \;
 cd example_code || exit 1
 vendor/phpunit/phpunit/phpunit
+$breadcrumb-font-size:              null;
+$breadcrumb-padding-y:              0;
+$breadcrumb-padding-x:              0;
+$breadcrumb-item-padding-x:         .5rem;
+$breadcrumb-margin-bottom:          1rem   
+$breadcrumb-bg:                     null;
+$breadcrumb-divider-color:          $gray-600;
+$breadcrumb-active-color:           $gray-600;
+$breadcrumb-divider:                quote("/");
+$breadcrumb-divider-flipped:        $breadcrumb-divider;
+$breadcrumb-border-radius:          null; 
+unit testing 
+live Unit Testing Packages
+"add lead"
+
+
